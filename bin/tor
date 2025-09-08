@@ -1,4 +1,2 @@
-#!/usr/bin/zsh
-cd /opt/tor/tor-browser-linux-x86_64-14.0.4/tor-browser/Browser
-./start-tor-browser --detach 
-cd -
+#!/usr/bin/bash
+(cd ~/softwares/tor-browser/ && ./start-tor-browser.desktop --detach) 
